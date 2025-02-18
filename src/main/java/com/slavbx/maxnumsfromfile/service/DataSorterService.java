@@ -71,13 +71,13 @@ public class DataSorterService {
      * Метод, обеспечивающий сортировку массива (вспомогательный)
      */
     private void merge(int first, int half, int last, int... input) {
-        int[] merged = new int[last - first + 1]; // массив слияния
+        int[] merged = new int[last - first + 1]; // Массив слияния
         int i = first;
         int j = half + 1;
         boolean iPassed = false;
         boolean jPassed = false;
 
-        for (int taken = 0; taken < merged.length; taken++) { // число шагов == размер массива слияния
+        for (int taken = 0; taken < merged.length; taken++) { // Число шагов == размер массива слияния
             // При финише j курсора, массив слияния дополняем остатками 1го массива
             if (jPassed) {
                 merged[taken] = input[i];
