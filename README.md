@@ -5,8 +5,8 @@
 ### Используемое ПО
 Maven 3.9.9    
 Java JDK17+ (17.0.13)    
-IntelliJIDEA 2024.1.4
-Apache Maven 3.9.6
+IntelliJIDEA 2024.1.4  
+Apache Maven 3.9.6  
 Spring Boot 3.4.2    
 
 ### Сборка и запуск проекта
